@@ -11,7 +11,7 @@
       "categoriaMenu": "segundos",
       "precio": 10,
       "rating": 5,
-      "menuId": 0
+      "menuId": 1
     },
     {
       "id": 2,
@@ -24,7 +24,7 @@
       "categoriaMenu": "primeros",
       "precio": 8.5,
       "rating": 4,
-      "menuId": 0
+      "menuId": 1
     },
     {
       "id": 3,
@@ -37,7 +37,7 @@
       "categoriaMenu": "segundos",
       "precio": 15,
       "rating": 5,
-      "menuId": 0
+      "menuId": 1
     },
     {
       "id": 4,
@@ -75,8 +75,8 @@
       "categoria": "postres",
       "categoriaMenu": "postres",
       "precio": 6,
-      "rating": 4.5,
-      "menuId": 0
+      "rating": "3.5",
+      "menuId": 1
     },
     {
       "id": 7,
@@ -102,7 +102,7 @@
       "categoriaMenu": "primeros",
       "precio": 7.5,
       "rating": 4.5,
-      "menuId": 0
+      "menuId": 1
     },
     {
       "id": 9,
@@ -141,7 +141,7 @@
       "categoriaMenu": "postres",
       "precio": 4,
       "rating": 4.5,
-      "menuId": 0
+      "menuId": 1
     },
     {
       "id": 12,
@@ -154,7 +154,7 @@
       "categoriaMenu": "primeros",
       "precio": 7,
       "rating": 4.2,
-      "menuId": 0
+      "menuId": -1
     },
     {
       "id": 13,
@@ -245,7 +245,7 @@
       "categoriaMenu": "primeros",
       "precio": 8,
       "rating": 4.5,
-      "menuId": 0
+      "menuId": -1
     },
     {
       "id": 21,
@@ -419,7 +419,7 @@
     {
       "nombre": "Sukiyaki",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNsc3_WA9pyQBFI7yxIhVWw14FlgP6niQNNg&s",
-      "descripcion": "El sukiyaki es un plato japonés dentro del estilo nabemono. Este consiste en carne o en la versión\nvegetariana hecha de tofu, cocido a fuego lento o hervido en la mesa, junto con vegetales y otros\ningredientes, en una olla poco profunda en una mezcla de salsa de soja, azúcar y mirin.",
+      "descripcion": "El sukiyaki es un plato japonés que consiste en carne cocida a fuego lento o hervido en la mesa, junto con vegetales y otros\ningredientes, en una olla poco profunda en una mezcla de salsa de soja, azúcar y mirin.",
       "isGlutenFree": false,
       "isVegan": false,
       "categoria": "carnes",
@@ -432,7 +432,7 @@
     {
       "nombre": "Sushi",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7SbMj_0M261NAkxDG-kBZcYfJumK5_7Zk9A&s",
-      "descripcion": "Sushi es un plato típico de origen japonés basado en arroz aderezado con vinagre de arroz,\nazúcar y sal y combinado con otros ingredientes como pescados crudos, mariscos, verduras,\netc.​​​ Este plato es uno de los más reconocidos de la gastronomía japonesa y uno de los más\npopulares internacionalmente.​",
+      "descripcion": "Sushi es un plato típico de origen japonés basado en arroz aderezado con vinagre de arroz,\nazúcar y sal y combinado con otros ingredientes como pescados crudos, mariscos, verduras,\netc.​​​",
       "isGlutenFree": true,
       "isVegan": false,
       "categoria": "pescados",
