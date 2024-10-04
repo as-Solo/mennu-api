@@ -1,7 +1,9 @@
 
 # MENNU-API
 
-This repository is a [json-server](https://github.com/typicode/json-server) created to feed data into the React Application below.
+Este repositorio fue creado con [json-server](https://github.com/typicode/json-server) para compartir datos con la API MENNU (link mas adeánte).
+
+Esta API proporciona datos sobre menús y platos para la aplicación de restaurante Mennu, donde se puede consultar, crear, editar y eliminar información sobre los menús y sus platos.
 
 #### [Mennu](https://github.com/as-Solo/mennu/tree/main)
 
@@ -50,10 +52,10 @@ This repository is a [json-server](https://github.com/typicode/json-server) crea
 | DELETE      | `/dishes/:dishId`                         |    {dishId}                     | Deletes a dish object                                          |
 | GET         | `/menus`                                  |                              | Sends all menus                                                |
 | POST        | `/menus`                                  | {nombre, precio}               | Creates a new menu                                             |
-| GET         | `/menus/:id`                              | {id}               | Creates a new menu                                             |
+| GET         | `/menus/:id`                              | {id}               | Get a menu by Id                                             |
 | GET         |`menus?nombre = {{nombre}}`              | { nombre}               | Menu by name                                           |
 | GET         |`menus/:menuId?_embed=dishes`              | { menuId}               | All dishes in a menu                                           |
-| DELETE      | `menus/:Id`                                |      { id}                      | Deletes a menu object                                          |   
+| DELETE      | `menus/:Id`                                |                          | Deletes a menu object                                          |   
 
  
 ## Links
