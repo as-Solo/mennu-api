@@ -77,4 +77,4 @@ Esta API proporciona datos sobre menús y platos para la aplicación de restaura
 
 ### Slides
 
-[Slides Link](www.your-slides-url-here.com)
+[Slides Link](https://docs.google.com/presentation/d/1H1jWLZd9FHsy4tQcPWqtpBhUWVDhLSonEJNOydNYJ7g/edit?usp=sharing)
