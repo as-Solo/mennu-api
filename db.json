@@ -76,7 +76,7 @@
       "categoriaMenu": "postres",
       "precio": 6,
       "rating": 4.5,
-      "menuId": 0
+      "menuId": 2
     },
     {
       "id": 7,
@@ -89,7 +89,7 @@
       "categoriaMenu": "segundos",
       "precio": 18,
       "rating": 5,
-      "menuId": 0
+      "menuId": 2
     },
     {
       "id": 8,
@@ -128,7 +128,7 @@
       "categoriaMenu": "primeros",
       "precio": 5.5,
       "rating": 4.7,
-      "menuId": 0
+      "menuId": 2
     },
     {
       "id": 11,
