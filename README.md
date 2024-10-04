@@ -68,11 +68,11 @@ Esta API proporciona datos sobre menús y platos para la aplicación de restaura
 
 ### Project
 
-[Repository Link Client](https://github.com/as-Solo/mennu)
+[MENNU](https://github.com/as-Solo/mennu)
 
-[Repository Link Server](https://github.com/as-Solo/mennu-api)
+[MENNU-APPI](https://github.com/as-Solo/mennu-api)
 
-[Deploy Link](https://mennu-ih.netlify.app/)
+[MENNU-IH](https://mennu-ih.netlify.app/)
 
 
 ### Slides
