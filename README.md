@@ -44,15 +44,15 @@ This repository is a [json-server](https://github.com/typicode/json-server) crea
 | GET         | `/dishes`                                 |                              | Sends all dishes                                               |
 | POST        | `/dishes`                                 | {nombre, categoria, categoriaMenu,image, precio, rating}         | Creates a new dish                                             |
 | GET         | `/dishes/:dishId`                         |                              | Sends all details of a dish                                    |
-| GET         | `/dishes?categoria={{categoria}}`         |                              | Dishes by Category                                             |
-| GET         | `/dishes?categoriaMenu={{categoriaMenu}}` |                              | Dishes by menuCategory                                         |
+| GET         | `/dishes?categoria={{categoria}}`         |     {categoria}              | Dishes by Category                                             |
+| GET         | `/dishes?categoriaMenu={{categoriaMenu}}` |       {categoriaMenu}        | Dishes by menuCategory                                         |
 | PATCH       | `/dishes/:dishId`                         | opcional{id,nombre,image,descripcion,isGlutenFree,isVegan,categoria,categoriaMenu,precio,rating,menuId   }  | Edits a dish object                                            |
-| DELETE      | `/dishes/:dishId`                         |                              | Deletes a dish object                                          |
+| DELETE      | `/dishes/:dishId`                         |    {dishId}                     | Deletes a dish object                                          |
 | GET         | `/menus`                                  |                              | Sends all menus                                                |
 | POST        | `/menus`                                  | {nombre, precio}               | Creates a new menu                                             |
-| GET         | `/menus/:id`                              | {text, gameId}               | Creates a new menu                                             |
-| GET         |`menus/:menuId?_embed=dishes`              | {text, gameId}               | All dishes in a menu                                           |
-| DELETE      | `/menus`                                  | {text, gameId}               | Deletes a menu object                                          |   
+| GET         | `/menus/:id`                              | {id}               | Creates a new menu                                             |
+| GET         |`menus/:menuId?_embed=dishes`              | { menuId}               | All dishes in a menu                                           |
+| DELETE      | `menus/:Id`                                |      { id}                      | Deletes a menu object                                          |   
 
  
 ## Links
