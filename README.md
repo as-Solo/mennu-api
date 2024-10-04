@@ -1,7 +1,7 @@
 
 # MENNU-API
 
-Este repositorio fue creado con [json-server](https://github.com/typicode/json-server) para compartir datos con la API MENNU (link mas adeánte).
+Este repositorio fue creado con [json-server](https://github.com/typicode/json-server) para compartir datos con la API MENNU (link mas adelante).
 
 Esta API proporciona datos sobre menús y platos para la aplicación de restaurante Mennu, donde se puede consultar, crear, editar y eliminar información sobre los menús y sus platos.
 
@@ -70,7 +70,7 @@ Esta API proporciona datos sobre menús y platos para la aplicación de restaura
 
 [MENNU - repositorio cliente](https://github.com/as-Solo/mennu)
 
-[MENNU-APPI - repositorio servidor](https://github.com/as-Solo/mennu-api)
+[MENNU-API - repositorio servidor](https://github.com/as-Solo/mennu-api)
 
 [MENNU-IH - repositorio deployed](https://mennu-ih.netlify.app/)
 
