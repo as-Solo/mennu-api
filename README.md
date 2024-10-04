@@ -51,6 +51,7 @@ This repository is a [json-server](https://github.com/typicode/json-server) crea
 | GET         | `/menus`                                  |                              | Sends all menus                                                |
 | POST        | `/menus`                                  | {nombre, precio}               | Creates a new menu                                             |
 | GET         | `/menus/:id`                              | {id}               | Creates a new menu                                             |
+| GET         |`menus?nombre = {{nombre}}`              | { nombre}               | Menu by name                                           |
 | GET         |`menus/:menuId?_embed=dishes`              | { menuId}               | All dishes in a menu                                           |
 | DELETE      | `menus/:Id`                                |      { id}                      | Deletes a menu object                                          |   
 
